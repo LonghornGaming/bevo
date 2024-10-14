@@ -1,0 +1,17 @@
+*
+
+!.gitignore
+!CMakeLists.txt
+!LICENSE
+!README.md
+!SECURITY.md
+
+!*.cpp
+!*.c 
+!*.h
+
+!src/
+!src/**/*
+
+!third-party/
+!third-party/**/*

@@ -1,0 +1,6 @@
+add_subdirectory(flecs-4.0.2)
+add_subdirectory(fmt-11.0.2)
+add_subdirectory(imgui-docking-1.91.3)
+set(IMNODES_IMGUI_TARGET_NAME imgui)
+add_subdirectory(imnodes-0.5)
+add_subdirectory(sqlite-amalgamation-3460100)
