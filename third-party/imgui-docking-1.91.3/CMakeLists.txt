@@ -16,3 +16,4 @@ target_sources(imgui PRIVATE
     backends/imgui_impl_vulkan.cpp
 )
 target_include_directories(imgui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/backends)
+target_link_libraries(imgui PRIVATE SDL3::SDL3)
